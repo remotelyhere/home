@@ -23,4 +23,5 @@ newsboat/cache.db
 .zsh_history
 .zcompdump
 .zcompdump*
+.local/*
 .local/share
