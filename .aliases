@@ -1,0 +1,3 @@
+alias PV="python --version"
+alias urls="nvim $HOME/.newsboat/urls"
+alias ndir="cd $HOME/.config/nvim/"
