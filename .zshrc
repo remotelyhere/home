@@ -114,3 +114,6 @@ source $HOME/.aliases
 
 eval "$(rbenv init -)"
 eval "$(pyenv init -)"
+bindkey -v
+export PATH="$HOME/.plenv/bin:$PATH"
+eval "$(plenv init - zsh)"

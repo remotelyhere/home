@@ -1,6 +1,6 @@
 .rbenv/
 .pyenv/
-.oh-my-zsh
+.oh-my-zsh/
 .vim/
 Templates/
 Videos/
@@ -25,3 +25,6 @@ newsboat/cache.db
 .zcompdump*
 .local/*
 .local/share
+.sudo*
+.netrc
+.plenv/
