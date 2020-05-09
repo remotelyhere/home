@@ -75,7 +75,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git sudo pyenv rbenv hacker-quotes)
+
 
 source $ZSH/oh-my-zsh.sh
 
@@ -110,10 +111,12 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source $HOME/.aliases
+source $HOME/.aliases.sh
 
 eval "$(rbenv init -)"
 eval "$(pyenv init -)"
 bindkey -v
 export PATH="$HOME/.plenv/bin:$PATH"
 eval "$(plenv init - zsh)"
+export PATH="$ZSH/plugins/custom/plugins:$PATH"
+export PATH="$ZSH/plugins/custom/plugins:$PATH"
