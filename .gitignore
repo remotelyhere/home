@@ -30,3 +30,4 @@ newsboat/cache.db
 .plenv/
 .config/VirtualBox
 .ssh/
+.z
